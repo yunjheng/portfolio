@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header {
+   display: flex;
+   flex-wrap:wrap;
+   align-items: center;
+   justify-content: space-between;
+   height:80px;
+   width:100%;
+   background-color: white;
+  
+
+section.logo {
+    
+    display:flex;
+    align-items: center;
+    img{
+    width: 150px;
+    }
+    h1{
+        background-image: url(../img/小芝家_logo2.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 150px;
+        width: 220px;
+        font-size: 35px;
+        text-indent:-9999px;
+    }
+}
+nav {
+    ul{
+        display:flex;
+        list-style-type:none;
+        justify-content: space-around;
+        li{
+            margin-right:4vw;
+            a{
+                color:rgb(116, 116, 116);
+                text-decoration:none;
+                font-size: 16px;
+                transition:all 0.2s ease;
+                padding-bottom:0.3rem;
+
+            }
+            a:hover{
+                color:#000;
+               border-bottom:2px solid #000;
+            }
+        }
+    }
+     
+}
+}
+
+main {
+    section.background-image{
+        min-height:70vh;
+        background-image: url(../img/banner.jpg);
+        background-size:cover;
+        background-position:center;
+        position:relative;
+        z-index:0;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+
+        div.filter{
+            background-color:rgba(0,0,0,0.5);
+            width:100%;
+            min-height:70vh;
+            position:absolute;
+            top:0;
+            left:0;
+            z-index: -1;
+            }
+
+            h3{
+                color:white;
+                font-size:30px;
+                text-decoration: flex;
+                margin-bottom:15px;
+                 }
+            p{
+                color:white;
+                font-size:16px;
+                line-height:  1.5em;
+                }
+    
+        }
+
+        section.about{
+            display:flex;
+            flex-direction: row-reverse;
+           
+
+            img{
+                width: 50%;
+            }
+            .info{
+                width: 50%;
+                background-color: white;
+                display:flex;
+                flex-direction:column;
+                
+                margin-top: 190px;
+                margin-left: 130px;
+
+                h3{
+                    margin-bottom:20px;
+                    font-size: 20px;
+                }
+                
+
+                h2{
+                    font-size: 30px;
+                    margin-bottom:15px;
+                }
+                p{
+                    
+                    font-size:16px;
+                    line-height:  1.5em;
+                    margin-bottom: 40px;
+
+                }
+                a{
+                    color:black;
+                    font-size: 18px;
+                    text-decoration:none;
+                    border:1px solid black;
+                    padding:10px 20px;
+                    border-radius:5px;
+                }
+            }
+
+            }
+
+        section.product-info{
+            background-color:#dfdfdf;
+            padding:4rem 1rem;
+            
+            
+            .info{
+                display: flex;
+                margin-bottom: 40px;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap:wrap;
+                
+            }
+            .info h2{
+                padding-left: 45vw;
+                font-size:2rem;
+                
+            }
+
+            .info a{
+                text-align: center;
+                font-size: 18px;
+                margin-right: 40px;
+                text-decoration: none;
+                text-align: center;
+                border:1px solid black;
+                padding:10px 20px;
+                border-radius:5px;
+                color: #000;
+                    
+            }
+            .items{
+                
+                display:flex;
+                flex-wrap:wrap;
+                justify-content: space-between;
+                align-items:center;
+                padding:20px 180px 80px;
+
+                .item{
+                    width:300px;
+                    text-align: center;
+
+                    img{
+                        width:100%;
+                        border-radius:10px;
+                    }
+                }
+
+            }
+            
+        }
+
+    }
+
+footer{
+    background-color: #000;
+    color: #b7b7b7;;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:14px;
+
+}
